@@ -1,10 +1,5 @@
-# Tool to build the rtp entry for the outputs of th
-# Script will work with the copolymerization tool for Gromacs
-#
-# Run this script with python copolymer_rtp_entry.py <polymer 5 digit code>
-#
-# For polymer 5 digit code: 
-#
+# Script will work with the copolymerization tool to produce an rtp entry for the copolymer
+
 import sys
 polyName = sys.argv[1];
 
