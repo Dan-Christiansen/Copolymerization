@@ -310,13 +310,7 @@ case $input in
 		echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 		echo "Graft copolymerization has not been added yet."
 		echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-		#echo
-		echo "My apologies, please contact Eduardo Martinez at emarti59@uic.edu for a consolation gift."
-		#echo
 		echo "Please also try our other forms of copolymerization while you're here!"
-		echo
-		echo "Enjoy this ASCII art while you contemplate why you picked graft copolymerization"
-		exec ./Scripts/error.sh
 		;;
 	*) # Any input not in the four copolymerization styles listed will give this error
 		echo
