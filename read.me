@@ -1,0 +1,30 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	   ___ ___  ___  ___  _ __   ____  __ ___ ___ ___ ____  _ _____ ___ ___  _  _
+	  / __/ _ \| _ \/ _ \| |\ \ / /  \/  | __| _ \_ _|_  / /_\_   _|_ _/ _ \| \| |
+	 | (_| (_) |  _/ (_) | |_\ V /| |\/| | _||   /| | / / / _ \| |  | | (_) | .` |
+	  \___\___/|_|  \___/|____|_| |_|  |_|___|_|_\___/___/_/ \_\_| |___\___/|_|\_|
+
+			AUTOMATED LINEAR COPOLYMERIZATION FOR USE WITH GROMACS
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+				AUTHOR: D. E. Christiansen, S. Mehraeen
+				LAST UPDATE: January 29th, 2020
+				CONTACT: dchris28@uic.edu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+README
+	The copolymerization tool included here makes use of Gromacs commands and premade
+	monomer structures and topologies to produce linear copolymer structure and
+	topology files for any degree of polymerization random, block, or alternating
+	copolymer.
+
+	Outputs from the tool will be found in the folder "copolymer_output" and can be
+	used in any further Gromacs simulations.
+
+USAGE
+	Run the script from this folder with:
+												./Copolymerization_V3.sh
+	and follow the prompts
+
+WITH THIS UPDATE
+	This update brings additional monomers and "copol_rtp_maker_v1.py" script to produce
+	the rtp entry so the produced polymer may be used by Gromacs.
